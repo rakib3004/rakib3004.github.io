@@ -6,7 +6,6 @@
 
 .wrapper
 {
-  background: url(read.jpg) no-repeat;
   background-size:cover;
   height:100vh;
 }
@@ -54,8 +53,9 @@
 {
   color:white;
   font-size:30px;
-  background:rgba(0,255,50,0.5);
-  box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;
+  background:rgba(255,0,50,0.5);
+ /* box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;*/
+  box-shadow:0 0 10px #d11717, 0 0 40px #d11717, 0 0 10px #d11717;
   transition:1s;
 }
 
