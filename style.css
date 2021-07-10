@@ -305,7 +305,7 @@ section .title::after{
   background: #00fa9a;
 }
 .services .serv-content .card .box{
-  transition: all 0.3 ease;
+  transition: all /*0.3*/ease;
 }
 .services .serv-content .card:hover .box{
   transform: scale(1.05);
