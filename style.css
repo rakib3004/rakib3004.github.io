@@ -488,12 +488,12 @@ section .title::after{
 /* gallery section styling */
 .gallery .title::before{
   background: #111;
-  bottom: -2940px;
+  bottom: -40000px;
 }
 .gallery .title::after{
   background: #fff;
   content: " What I Do ";
-  bottom: -2955px;
+  bottom: -4015px;
   color: #00fa9a;
 }
 .gallery .carousel-2 .card{
