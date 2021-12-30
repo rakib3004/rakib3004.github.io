@@ -28,7 +28,7 @@ html{
 section{
   padding: 100px 0;
 }
-.about, .services, .skills, .teams, .footer{
+.about, .projects, .skills, .teams, .footer{
   font-family: 'Poppins', sans-serif;
 }
 .max-width{
@@ -37,7 +37,7 @@ section{
   margin: auto;
 }
 .about .about-content,
-.services .serv-content,
+.projects .serv-content,
 .skills .skills-content{
   display: flex;
   flex-wrap: wrap;
@@ -277,25 +277,25 @@ section .title::after{
   background: none;
 }
 
-/* services section styling */
-.services, .teams{
+/* projects section styling */
+.projects, .teams{
   color: #fff;
   background: #111;
 }
-.services .title{
+.projects .title{
   color: #fff;
 }
-.services .title::before{
+.projects .title::before{
   background: #fff;
   bottom: -1040px;
 }
-.services .title::after{
+.projects .title::after{
   background: #111;
   content: " What I Provide ";
   bottom: -1055px;
   color: #00FFFF;
 }
-.services .serv-content .card{
+.projects .serv-content .card{
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -303,34 +303,34 @@ section .title::after{
   padding: 35px 30px;
   cursor: pointer;
 }
-.services .serv-content .card:hover{
+.projects .serv-content .card:hover{
   background: #00FFFF;
 }
-.services .serv-content .card .box{
+.projects .serv-content .card .box{
   transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.projects .serv-content .card:hover .box{
   transform: scale(1.05);
 }
-.services .serv-content .card i{
+.projects .serv-content .card i{
   margin-bottom: 20px;
   font-size: 25px;
   color: #00FFFF;
 }
-.services .serv-content .card p{
+.projects .serv-content .card p{
   padding: 15px;
   text-align: center;
 }
-.services .serv-content .card:hover i{
+.projects .serv-content .card:hover i{
   color: #111;
 }
-.services .serv-content .card:hover .text{
+.projects .serv-content .card:hover .text{
   color: #111;
 }
-.services .serv-content .card:hover p{
+.projects .serv-content .card:hover p{
   color: #111;
 }
-.services .serv-content .card .text{
+.projects .serv-content .card .text{
   font-family: 'Great Vibes';
   font-size: 35px;
   font-weight: 400;
@@ -680,7 +680,7 @@ footer span a:hover{
   .about .about-content .right{
     flex: 100%;
   }
-  .services .serv-content .card{
+  .projects .serv-content .card{
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
@@ -735,7 +735,7 @@ footer span a:hover{
   .home .home-content a{
     font-size: 20px;
   }
-  .services .serv-content .card{
+  .projects .serv-content .card{
     width: 100%;
   }
   .gallery .carousel-2 .card{
@@ -819,10 +819,10 @@ footer span a:hover{
   .about .title::after{
     bottom: -200px;
   }
-  .services .title::before{
+  .projects .title::before{
     bottom: -1230px;
   }
-  .services .title::after{
+  .projects .title::after{
     bottom: -1245px;
   }
   .skills .title::before{
