@@ -172,7 +172,7 @@ section .title::after{
 /* home section styling */
 .home{
   display: flex;
-  background: url("Images/web_background.png") no-repeat center;
+  background: url("Images/web_background.jpg") no-repeat center;
   height: 100vh;
   color: white ;
   min-height: 500px;
@@ -774,7 +774,7 @@ footer span a:hover{
 
 @media (max-width: 500px) {
   .home{
-    background: url("Images/mobile_background.png") no-repeat center;
+    background: url("Images/mobile_background.jpg") no-repeat center;
     height: 120vh;
     color: white ;
     min-height: 400px;
