@@ -31,7 +31,7 @@ section {
 .about,
 .projects,
 .skills,
-.organizations,
+.experience,
 .footer {
   font-family: "Poppins", sans-serif;
 }
@@ -278,7 +278,7 @@ section .title::after {
 
 /* projects section styling */
 .projects,
-.organizations {
+.experience {
   color: #fff;
   background: #111;
 }
@@ -414,54 +414,51 @@ section .title::after {
   width: 50%;
 }
 
-/* organizations section styling */
-.organizations .title::before {
-  background: #fff;
-  bottom: -2240px;
-}
-.organizations .title::after {
+/* experience section styling */
+
+.experience .title::after {
   background: #111;
   bottom: -2255px;
   color: #00ffff;
 }
-.organizations .carousel .card {
+.experience .carousel .card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
   transition: all 0.3s ease;
 }
-.organizations .carousel .card:hover {
+.experience .carousel .card:hover {
   background: #00ffff;
 }
-.organizations .carousel .card .box {
+.experience .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-.organizations .carousel .card:hover .box {
+.experience .carousel .card:hover .box {
   transform: scale(1.05);
 }
-.organizations .carousel .card .text {
+.experience .carousel .card .text {
   font-family: "Great Vibes";
   font-size: 35px;
   color: #00ffff;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-.organizations .carousel .card:hover .text {
+.experience .carousel .card:hover .text {
   color: #000;
 }
-.organizations .carousel .card img {
+.experience .carousel .card img {
   height: 150px;
   width: 150px;
   object-fit: cover;
   border-radius: 15%;
   border: 5px solid #00ffff;
 }
-.organizations .carousel .card:hover img {
+.experience .carousel .card:hover img {
   border-color: #000;
 }
 .owl-dots {
@@ -826,10 +823,10 @@ footer span a:hover {
   .skills .title::after {
     bottom: -2375px;
   }
-  .organizations .title::before {
+  .experience .title::before {
     bottom: -3200px;
   }
-  .organizations .title::after {
+  .experience .title::after {
     bottom: -3215px;
   }
   .gallery .title::before {
